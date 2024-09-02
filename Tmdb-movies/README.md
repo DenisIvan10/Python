@@ -11,7 +11,7 @@
 </ul>
 <h3>Selectia caracteristicilor</h3> 
 <ul>
-  <li>Din setul de date sunt extrase doar coloanele relevante: "id", "title", "overview", "genre". Se creeaza o noua coloana "tags" prin combinarea coloanelor "overview" și "genre".</li>
+  <li>Din setul de date sunt extrase doar coloanele relevante: "id", "title", "overview", "genre". Se creeaza o noua coloana "tags" prin combinarea coloanelor "overview" si "genre".</li>
 </ul>
 <h3>Vectorizarea textului</h3>
 <ul>
