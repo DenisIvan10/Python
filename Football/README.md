@@ -28,4 +28,3 @@
   <li>Se mapeaza denumirile echipelor folosind un dictionar pentru a standardiza numele acestora</li>
   <li>Se combina rezultatele predictiilor pentru echipele oponente pentru a analiza situatiile in care o echipa prezisa sa castige infrunta o echipa prezisa sa piarda</li>
 </ul>
-<h3>Analiza comenzilor</h3>
