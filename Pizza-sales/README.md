@@ -1,35 +1,35 @@
-<h1>Descriere</h1>
-<p>Acest proiect este un instrument de analiza a datelor bazat pe Python, destinat examinarii datelor de vanzari de pizza de la un lant de pizzerii fictiv. Codul incarca date dintr-un fisier Excel, proceseaza si combina diferite foi, si apoi efectueaza diverse analize statistice si vizualizari. Este util pentru obtinerea unor perspective de afaceri si pentru luarea deciziilor in cadrul unui lant de pizzerii.</p>
-<h1>Caracteristici</h1>
-<h3>Incarcarea datelor</h3>
+<h1>Description</h1>
+<p>This project is a Python-based data analysis tool designed to examine pizza sales data from a fictional pizza chain. The code loads data from an Excel file, processes and combines various sheets, and then performs various statistical analyses and visualizations. It is useful for gaining business insights and making decisions within a pizza chain.</p>
+<h1>Features</h1>
+<h3>Data loading</h3>
 <ul>
-  <li>Scriptul citeste mai multe foi dintr-un fisier Excel si le incarca in DataFrame-uri Pandas</li>
+  <li>The script reads multiple sheets from an Excel file and loads them into Pandas DataFrames</li>
 </ul>
-<h3>Combinarea datelor</h3> 
+<h3>Data combination</h3> 
 <ul>
-  <li>DataFrame-urile din diferite foi sunt combinate pentru a crea un set de date cuprinzator care include comenzi, pizza, tipuri de pizza si detalii ale comenzilor</li>
+  <li>DataFrames from different sheets are combined to create a comprehensive dataset that includes orders, pizzas, pizza types, and order details</li>
 </ul>
-<h3>Analiza statistica</h3>
+<h3>Statistical analysis</h3>
 <ul>
-  <li>Se calculeaza statistici descriptive pentru fiecare DataFrame</li>
-  <li>Analiza celor mai frecvent utilizate ingrediente si tipuri de branza</li>
-  <li>Statistici sumare pentru vanzarile de pizza si cantitatile vandute, pe tip si marime</li>
+  <li>Descriptive statistics are calculated for each DataFrame</li>
+  <li>Analysis of the most frequently used ingredients and cheese types</li>
+  <li>Summary statistics for pizza sales and quantities sold, by type and size</li>
 </ul>
-<h3>Vizualizari</h3>
+<h3>Visualizations</h3>
 <ul>
-  <li>Histograma a preturilor pizzei</li>
-  <li>Diagrama de tip bar pentru veniturile lunare</li>
-  <li>Diagrama liniara care arata frecventa comenzilor in timp</li>
-  <li>Diagrama liniara care arata comenzile zilnice si veniturile</li>
+  <li>Histogram of pizza prices</li>
+  <li>Bar chart of monthly revenues</li>
+  <li>Line chart showing order frequency over time</li>
+  <li>Line chart displaying daily orders and revenues</li>
 </ul>
-<h3>Analiza veniturilor</h3>
+<h3>Revenue analysis</h3>
 <ul>
-  <li>Venitul total si distributia veniturilor pe luna si pe zi</li>
-  <li>Identificarea celei mai profitabile luni, a celei mai profitabile zile si a zilei cu cel mai mare numar de comenzi</li>
+  <li>Total revenue and revenue distribution by month and day</li>
+  <li>Identification of the most profitable month, the most profitable day, and the day with the highest number of orders</li>
 </ul>
-<h3>Analiza comenzilor</h3>
+<h3>Order analysis</h3>
 <ul>
-  <li>Frecventa comenzilor in timp</li>
-  <li>Analiza numarului total de comenzi si a numarului mediu de comenzi pe zi</li>
-  <li>Identificarea perioadelor in care nu au fost plasate comenzi</li>
+  <li>Order frequency over time</li>
+  <li>Analysis of the total number of orders and the average number of orders per day</li>
+  <li>Identification of periods with no orders</li>
 </ul>
