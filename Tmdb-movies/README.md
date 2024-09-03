@@ -5,7 +5,7 @@
 <p>2. Aplicatia web (app.py)</p>
 <h1>Caracteristici</h1>
 <h2>1. Preprocesarea si modelarea</h2>
-<h3>Incarcarea datelor</h2>
+<h3>Incarcarea datelor</h3>
 <ul>
   <li>Datele despre filme sunt incarcate dintr-un fisier CSV si sunt afisate informatii de baza despre acestea, cum ar fi primele 5 randuri, descrierea statistica si informatiile despre coloane</li>
 </ul>
