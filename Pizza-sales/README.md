@@ -1,7 +1,7 @@
 <h1>Descriere</h1>
 <p>Acest proiect este un instrument de analiza a datelor bazat pe Python, destinat examinarii datelor de vanzari de pizza de la un lant de pizzerii fictiv. Codul incarca date dintr-un fisier Excel, proceseaza si combina diferite foi, si apoi efectueaza diverse analize statistice si vizualizari. Este util pentru obtinerea unor perspective de afaceri si pentru luarea deciziilor in cadrul unui lant de pizzerii.</p>
 <h1>Caracteristici</h1>
-<h3>Incarcarea datelor</h2>
+<h3>Incarcarea datelor</h3>
 <ul>
   <li>Scriptul citeste mai multe foi dintr-un fisier Excel si le incarca in DataFrame-uri Pandas</li>
 </ul>
