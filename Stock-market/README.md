@@ -1,7 +1,7 @@
 <h1>Descriere</h1>
 <p>Acest proiect utilizeaza datele istorice ale indicelui S&P 500 pentru a construi un model de invatare automata care prezice daca pretul de inchidere al zilei urmatoare va fi mai mare decat pretul de inchidere al zilei curente. Modelul foloseste RandomForestClassifier pentru a face aceste previziuni si include o analiza de backtesting pentru evaluarea performantei modelului.</p>
 <h1>Caracteristici</h1>
-<h3>Colectarea Datelor</h2>
+<h3>Colectarea Datelor</h3>
 <ul>
   <li>Datele sunt colectate folosind yfinance pentru a obtine istoricul preturilor S&P 500</li>
 </ul>
