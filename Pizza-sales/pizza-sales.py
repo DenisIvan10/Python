@@ -28,7 +28,7 @@ big_df = pd.merge(merge_df2, df_pizza_types, on='pizza_type_id')
 big_df_stats = big_df.describe()
 big_df_info = big_df.info()
 
-#Înlocuim valorile NaN cu 0
+#Replace NaN values with 0
 big_df.fillna(0, inplace=True)
 
 ingredients_split = big_df['ingredients'].str.split(',').explode()
@@ -69,9 +69,9 @@ plt.xlabel('Price')
 plt.ylabel('Frequency')
 plt.title('Distribution of Pizza Prices')
 plt.show()
-#Cea mai cumparat pizza este cea la 22 de lei fiind apropae de 14000 de aparitii, adica 14000 de clienti dorind aceasta pizza, iar cea mai putin cumparata fiind pe la 24 de lei, cu aproximativ 1000 de paratii, adica o difenta de 140%.
+#The most purchased pizza is the one priced at 22 lei, with nearly 14,000 orders, meaning 14,000 customers wanted this pizza. The least purchased one is priced at 24 lei, with approximately 1,000 orders, showing a difference of 140%.
 
-#Am date numai din anum 2015
+#Data only from 2015
 total_revenue = big_df["price"].sum()
 print("Total revenue 2015:")
 print(total_revenue)
@@ -87,9 +87,10 @@ plt.xlabel('Month')
 plt.ylabel('Revenue')
 plt.title('Profitul obtinut pe fiecare luna din 2015')
 plt.show()
-#Din grafic putem observa ca in luna a 7 a adica luna iulie, s-a abtinut cel mia mare profit de 71027.45, iar in luna 10, octombrie, cel mai muc de 62566.50
-#Intre acestea profitul a variat cu cateva mii de lei de la luna la luna pana in luna august in care este un declin putin mai de durata pana in luna 10, iafr din luna 11 incepe sa isi revina la normal
-#Chiar daca variaza profitul a ramas mereu intre 6000 si 7000
+
+#From the graph we can see that in the 7th month, July, the biggest profit of 71027.45 was made, and in the 10th month, October, the smallest of 62566.50
+#Among these, the profit varied by a few thousand lei from month to month until August, in which there is a slightly longer decline until month 10, since from month 11 it starts to return to normal
+#Even if the profit varies, it always remained between 6000 and 7000
 
 
 order_frequency = big_df.groupby(big_df['date'].dt.to_period('M')).size()
@@ -100,10 +101,10 @@ plt.xlabel('Date')
 plt.ylabel('Number of Orders')
 plt.title('Order Frequency Over Time')
 plt.show()
-#Profitul variata de la luna la luna
-#Din 2015-01 a scazut in 2015-02, iar in 2015-03 a crescut la loc, mai bine decat in prima luna si acest lucru determina fluctuatia profitului aceste pizzeri
-#Cel mai mare punct ajungand la momentul 2015-07 dupa care a avut loc un declin destul de evident pana in 2015-10, cum am explicat si in graficul anterior
-#Anul s-a teminat cu un  profit mult mai mic decat a inceput, chiar daca cu o luna inainte a avut loc o crestere considerabila
+#Profit varies from month to month
+#From 2015-01 it decreased in 2015-02, and in 2015-03 it increased again, better than in the first month and this determines the fluctuation of the profit of these pizzerias
+#The highest point reaching the moment 2015-07, after which there was a fairly obvious decline until 2015-10, as I explained in the previous graph
+#The year ended with a much lower profit than it started, even though a month before there was a considerable increase
 
 
 total_orders = len(big_df["order_id"])
