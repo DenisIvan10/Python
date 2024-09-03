@@ -1,7 +1,7 @@
 <h1>Descriere</h1>
 <p>Acest proiect dezvolta un model de regresie pentru a prezice numarul de calorii arse in functie de diferite caracteristici fizice si activitati de exercitiu. Modelul foloseste XGBoost Regressor, un algoritm de invatare automata puternic si eficient pentru probleme de regresie.</p>
 <h1>Caracteristici</h1>
-<h3>Colectarea si procesarea datelor</h2>
+<h3>Colectarea si procesarea datelor</h3>
 <ul>
   <li>Datele sunt incarcate din doua fisiere CSV care contin informatii despre exercitii si calorii arse</li>
 </ul>
