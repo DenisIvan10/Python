@@ -1,30 +1,30 @@
-<h1>Descriere</h1>
-<p>Acest proiect este un instrument de machine learning bazat pe Python, destinat prezicerii rezultatelor meciurilor de fotbal folosind date istorice. Codul utilizeaza un RandomForestClassifier pentru a antrena un model pe datele despre meciuri si apoi pentru a prezice rezultatele viitoarelor meciuri. Este util pentru analisti sportivi si pentru oricine doreste sa imbunatateasca acuratetea predictiilor privind rezultatele meciurilor de fotbal.</p>
-<h1>Caracteristici</h1>
-<h3>Procesarea datelor</h3>
+<h1>Description</h1>
+<p>This project is a Python-based machine learning tool designed to predict the outcomes of football matches using historical data. The code utilizes a RandomForestClassifier to train a model on match data and then predict the results of future matches. It is useful for sports analysts and anyone looking to improve the accuracy of football match predictions.</p>
+<h1>Features</h1>
+<h3>Data processing</h3>
 <ul>
-  <li>Incarcarea datelor despre meciuri dintr-un fisier CSV</li>
-  <li>Curatarea datelor si generarea de noi caracteristici, inclusiv codificarea variabilelor categorice, extragerea caracteristicilor din date si ore, si generarea unor noi variabile pe baza acestora</li>
+  <li>Loading match data from a CSV file</li>
+  <li>Cleaning the data and generating new features, including encoding categorical variables, extracting features from dates and times, and generating new variables based on these</li>
 </ul>
-<h3>Antrenarea modelului</h3> 
+<h3>Model training</h3> 
 <ul>
-  <li>Datele sunt impartite in seturi de antrenament si testare, in functie de data meciurilor</li>
-  <li>Se antreneaza un model Random Forest pentru a prezice daca o echipa va castiga un meci pe baza unor factori precum locatia meciului, adversarul, ora si ziua saptamanii</li>
+  <li>The data is split into training and testing sets based on the match dates</li>
+  <li>A Random Forest model is trained to predict whether a team will win a match based on factors such as match location, opponent, time, and day of the week</li>
 </ul>
-<h3>Predictii</h3>
+<h3>Predictions</h3>
 <ul>
-  <li>Modelul este utilizat pentru a prezice rezultatele meciurilor din setul de testare</li>
-  <li>Precizia predictiilor este calculata folosind metrica accuracy_score</li>
-  <li>De asemenea, se calculeaza scorul de precizie (precision_score) pentru a evalua performanta modelului</li>
+  <li>The model is used to predict the results of matches in the test set</li>
+  <li>The accuracy of the predictions is calculated using the accuracy_score metric</li>
+  <li>The precision score is also calculated to evaluate the model's performance</li>
 </ul>
-<h3>Analiza avansata</h3>
+<h3>Advanced analysis</h3>
 <ul>
-  <li>Se genereaza rolling averages pentru diferite caracteristici ale meciurilor pentru a imbunatati predictiile</li>
-  <li>Se prezic rezultatele meciurilor utilizand aceste rolling averages si se evalueaza din nou precizia modelului</li>
-  <li>Se combina si se compara predictiile cu rezultatele reale ale meciurilor</li>
+  <li>Rolling averages for various match features are generated to improve predictions</li>
+  <li>Match results are predicted using these rolling averages, and the model's accuracy is re-evaluated</li>
+  <li>Predictions are compared with the actual match outcomes</li>
 </ul>
-<h3>Maparea si combinarea datelor</h3>
+<h3>Data mapping and combination</h3>
 <ul>
-  <li>Se mapeaza denumirile echipelor folosind un dictionar pentru a standardiza numele acestora</li>
-  <li>Se combina rezultatele predictiilor pentru echipele oponente pentru a analiza situatiile in care o echipa prezisa sa castige infrunta o echipa prezisa sa piarda</li>
+  <li>Team names are mapped using a dictionary to standardize their names</li>
+  <li>Predicted results for opposing teams are combined to analyze situations where a predicted winning team faces a predicted losing team</li>
 </ul>
