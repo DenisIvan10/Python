@@ -1,7 +1,7 @@
 <h1>Descriere</h1>
 <p>Acest proiect Python efectueaza o analiza detaliata a performantelor echipelor de baschet in diverse sezoane de playoff. Analiza include statistici descriptive, identificarea echipelor cu cele mai multe victorii, compararea procentelor de puncte din aruncari de doua si trei puncte, si explorarea castigurilor consecutive ale echipelor.</p>
 <h1>Functionalitati</h1>
-<h3>Procesare date</h2>
+<h3>Procesare date</h3>
 <ul>
   <li>Citirea si curatarea setului de date</li>
   <li>Gestionarea valorilor nule si eliminarea duplicatelor</li>
