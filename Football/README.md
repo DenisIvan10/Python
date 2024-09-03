@@ -1,7 +1,7 @@
 <h1>Descriere</h1>
 <p>Acest proiect este un instrument de machine learning bazat pe Python, destinat prezicerii rezultatelor meciurilor de fotbal folosind date istorice. Codul utilizeaza un RandomForestClassifier pentru a antrena un model pe datele despre meciuri si apoi pentru a prezice rezultatele viitoarelor meciuri. Este util pentru analisti sportivi si pentru oricine doreste sa imbunatateasca acuratetea predictiilor privind rezultatele meciurilor de fotbal.</p>
 <h1>Caracteristici</h1>
-<h3>Procesarea datelor</h2>
+<h3>Procesarea datelor</h3>
 <ul>
   <li>Incarcarea datelor despre meciuri dintr-un fisier CSV</li>
   <li>Curatarea datelor si generarea de noi caracteristici, inclusiv codificarea variabilelor categorice, extragerea caracteristicilor din date si ore, si generarea unor noi variabile pe baza acestora</li>
