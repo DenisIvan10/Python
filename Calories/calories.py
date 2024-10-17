@@ -52,6 +52,7 @@ correlation = calories_data.corr()
 
 plt.figure(figsize=(10,10))
 sns.heatmap(correlation, cbar=True, square=True, fmt='.1f', annot=True, annot_kws={"size":8}, cmap='Blues')
+plt.show()
 
 #Separating Features & Target
 x = calories_data.drop(columns=["User_ID", "Calories"], axis=1)
