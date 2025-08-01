@@ -88,6 +88,3 @@ Set model_name in ChatOpenAI or other parameters as needed.
 - Prompt engineering:
 Adapt the answer synthesis prompt in the code for different answer formats or styles.
 ---
-
-## Project Structure
-
