@@ -1,0 +1,203 @@
+[2025-07-17 09:43:25] [INFO] CLI pornit.
+[2025-07-17 09:43:25] [WARNING] Autorizare esuata. Token invalid.
+[2025-07-17 09:44:34] [INFO] CLI pornit.
+[2025-07-17 09:44:34] [WARNING] Autorizare esuata. Token invalid.
+[2025-07-17 09:46:18] [INFO] CLI pornit.
+[2025-07-17 09:46:18] [DEBUG] Autorizare reusita.
+[2025-07-17 09:46:18] [INFO] Baza de date a fost initializata.
+[2025-07-17 09:46:18] [DEBUG] Task adaugat in coada: pow [2, 10]
+[2025-07-17 09:46:18] [INFO] Worker async pornit.
+[2025-07-17 09:46:18] [DEBUG] Procesam task: pow (2, 10)
+[2025-07-17 09:46:18] [DEBUG] Cache MISS pentru pow(2, 10)
+[2025-07-17 09:46:18] [DEBUG] Calculam 2 ** 10
+[2025-07-17 09:46:18] [DEBUG] Cache SET pentru pow(2, 10) = 1024
+[2025-07-17 09:46:18] [INFO] Rezultat calculat: pow((2, 10)) = 1024
+[2025-07-17 09:46:18] [DEBUG] Operatie salvata in DB: operation='pow' input='(2, 10)' result='1024' timestamp=datetime.datetime(2025, 7, 17, 6, 46, 18, 410940)
+[2025-07-17 09:46:18] [DEBUG] Monitor: actualizat pentru pow
+[2025-07-17 09:46:19] [INFO] Cerere procesata: pow [2, 10]
+[2025-07-17 09:48:17] [INFO] CLI pornit.
+[2025-07-17 09:48:17] [DEBUG] Autorizare reusita.
+[2025-07-17 09:48:17] [INFO] Baza de date a fost initializata.
+[2025-07-17 09:48:17] [DEBUG] Task adaugat in coada: fib [20]
+[2025-07-17 09:48:17] [INFO] Worker async pornit.
+[2025-07-17 09:48:17] [DEBUG] Procesam task: fib (20,)
+[2025-07-17 09:48:17] [DEBUG] Cache MISS pentru fib(20,)
+[2025-07-17 09:48:17] [DEBUG] Calculam Fibonacci pentru n = 20
+[2025-07-17 09:48:17] [DEBUG] Cache SET pentru fib(20,) = 6765
+[2025-07-17 09:48:17] [INFO] Rezultat calculat: fib((20,)) = 6765
+[2025-07-17 09:48:17] [DEBUG] Operatie salvata in DB: operation='fib' input='(20,)' result='6765' timestamp=datetime.datetime(2025, 7, 17, 6, 48, 17, 811046)
+[2025-07-17 09:48:17] [DEBUG] Monitor: actualizat pentru fib
+[2025-07-17 09:48:18] [INFO] Cerere procesata: fib [20]
+[2025-07-17 09:49:08] [INFO] CLI pornit.
+[2025-07-17 09:49:08] [DEBUG] Autorizare reusita.
+[2025-07-17 09:49:08] [INFO] Baza de date a fost initializata.
+[2025-07-17 09:49:08] [DEBUG] Task adaugat in coada: fact [5]
+[2025-07-17 09:49:08] [INFO] Worker async pornit.
+[2025-07-17 09:49:08] [DEBUG] Procesam task: fact (5,)
+[2025-07-17 09:49:08] [DEBUG] Cache MISS pentru fact(5,)
+[2025-07-17 09:49:08] [DEBUG] Calculam factorial pentru n = 5
+[2025-07-17 09:49:08] [DEBUG] Cache SET pentru fact(5,) = 120
+[2025-07-17 09:49:08] [INFO] Rezultat calculat: fact((5,)) = 120
+[2025-07-17 09:49:08] [DEBUG] Operatie salvata in DB: operation='fact' input='(5,)' result='120' timestamp=datetime.datetime(2025, 7, 17, 6, 49, 8, 723062)
+[2025-07-17 09:49:08] [DEBUG] Monitor: actualizat pentru fact
+[2025-07-17 09:49:09] [INFO] Cerere procesata: fact [5]
+[2025-07-17 09:50:47] [INFO] CLI pornit.
+[2025-07-17 09:50:47] [DEBUG] Autorizare reusita.
+[2025-07-17 09:50:47] [INFO] Baza de date a fost initializata.
+[2025-07-17 09:50:47] [DEBUG] Task adaugat in coada: pow [2, 3]
+[2025-07-17 09:50:47] [INFO] Worker async pornit.
+[2025-07-17 09:50:47] [DEBUG] Procesam task: pow (2, 3)
+[2025-07-17 09:50:47] [DEBUG] Cache MISS pentru pow(2, 3)
+[2025-07-17 09:50:47] [DEBUG] Calculam 2 ** 3
+[2025-07-17 09:50:47] [DEBUG] Cache SET pentru pow(2, 3) = 8
+[2025-07-17 09:50:47] [INFO] Rezultat calculat: pow((2, 3)) = 8
+[2025-07-17 09:50:47] [DEBUG] Operatie salvata in DB: operation='pow' input='(2, 3)' result='8' timestamp=datetime.datetime(2025, 7, 17, 6, 50, 47, 503378)
+[2025-07-17 09:50:47] [DEBUG] Monitor: actualizat pentru pow
+[2025-07-17 09:50:48] [INFO] Cerere procesata: pow [2, 3]
+[2025-07-17 09:51:04] [INFO] CLI pornit.
+[2025-07-17 09:51:04] [DEBUG] Autorizare reusita.
+[2025-07-17 09:51:04] [INFO] Baza de date a fost initializata.
+[2025-07-17 09:51:04] [DEBUG] Task adaugat in coada: fact [3]
+[2025-07-17 09:51:04] [INFO] Worker async pornit.
+[2025-07-17 09:51:04] [DEBUG] Procesam task: fact (3,)
+[2025-07-17 09:51:04] [DEBUG] Cache MISS pentru fact(3,)
+[2025-07-17 09:51:04] [DEBUG] Calculam factorial pentru n = 3
+[2025-07-17 09:51:04] [DEBUG] Cache SET pentru fact(3,) = 6
+[2025-07-17 09:51:04] [INFO] Rezultat calculat: fact((3,)) = 6
+[2025-07-17 09:51:04] [DEBUG] Operatie salvata in DB: operation='fact' input='(3,)' result='6' timestamp=datetime.datetime(2025, 7, 17, 6, 51, 4, 289953)
+[2025-07-17 09:51:04] [DEBUG] Monitor: actualizat pentru fact
+[2025-07-17 09:51:05] [INFO] Cerere procesata: fact [3]
+[2025-07-17 09:51:12] [INFO] CLI pornit.
+[2025-07-17 09:51:12] [DEBUG] Autorizare reusita.
+[2025-07-17 09:51:12] [INFO] Baza de date a fost initializata.
+[2025-07-17 09:51:12] [DEBUG] Task adaugat in coada: fact [6]
+[2025-07-17 09:51:12] [INFO] Worker async pornit.
+[2025-07-17 09:51:12] [DEBUG] Procesam task: fact (6,)
+[2025-07-17 09:51:12] [DEBUG] Cache MISS pentru fact(6,)
+[2025-07-17 09:51:12] [DEBUG] Calculam factorial pentru n = 6
+[2025-07-17 09:51:12] [DEBUG] Cache SET pentru fact(6,) = 720
+[2025-07-17 09:51:12] [INFO] Rezultat calculat: fact((6,)) = 720
+[2025-07-17 09:51:12] [DEBUG] Operatie salvata in DB: operation='fact' input='(6,)' result='720' timestamp=datetime.datetime(2025, 7, 17, 6, 51, 12, 415119)
+[2025-07-17 09:51:12] [DEBUG] Monitor: actualizat pentru fact
+[2025-07-17 09:51:13] [INFO] Cerere procesata: fact [6]
+[2025-07-17 09:51:24] [INFO] CLI pornit.
+[2025-07-17 09:51:24] [DEBUG] Autorizare reusita.
+[2025-07-17 09:51:24] [INFO] Baza de date a fost initializata.
+[2025-07-17 09:51:24] [DEBUG] Task adaugat in coada: fib [8]
+[2025-07-17 09:51:24] [INFO] Worker async pornit.
+[2025-07-17 09:51:24] [DEBUG] Procesam task: fib (8,)
+[2025-07-17 09:51:24] [DEBUG] Cache MISS pentru fib(8,)
+[2025-07-17 09:51:24] [DEBUG] Calculam Fibonacci pentru n = 8
+[2025-07-17 09:51:24] [DEBUG] Cache SET pentru fib(8,) = 21
+[2025-07-17 09:51:24] [INFO] Rezultat calculat: fib((8,)) = 21
+[2025-07-17 09:51:24] [DEBUG] Operatie salvata in DB: operation='fib' input='(8,)' result='21' timestamp=datetime.datetime(2025, 7, 17, 6, 51, 24, 310737)
+[2025-07-17 09:51:24] [DEBUG] Monitor: actualizat pentru fib
+[2025-07-17 09:51:25] [INFO] Cerere procesata: fib [8]
+[2025-07-17 09:57:59] [INFO] CLI pornit.
+[2025-07-17 09:58:08] [DEBUG] Autorizare reusita.
+[2025-07-17 09:58:08] [INFO] Baza de date a fost initializata.
+[2025-07-17 09:58:08] [DEBUG] Task adaugat in coada: pow [2, 3]
+[2025-07-17 09:58:08] [INFO] Worker async pornit.
+[2025-07-17 09:58:08] [DEBUG] Procesam task: pow (2, 3)
+[2025-07-17 09:58:08] [DEBUG] Cache MISS pentru pow(2, 3)
+[2025-07-17 09:58:08] [DEBUG] Calculam 2 ** 3
+[2025-07-17 09:58:08] [DEBUG] Cache SET pentru pow(2, 3) = 8
+[2025-07-17 09:58:08] [INFO] Rezultat calculat: pow((2, 3)) = 8
+[2025-07-17 09:58:08] [DEBUG] Operatie salvata in DB: operation='pow' input='(2, 3)' result='8' timestamp=datetime.datetime(2025, 7, 17, 6, 58, 8, 169376)
+[2025-07-17 09:58:08] [DEBUG] Monitor: actualizat pentru pow
+[2025-07-17 09:58:09] [INFO] Cerere procesata: pow [2, 3]
+[2025-07-17 10:00:59] [INFO] CLI pornit.
+[2025-07-17 10:01:04] [DEBUG] Autorizare reusita.
+[2025-07-17 10:01:04] [INFO] Baza de date a fost initializata.
+[2025-07-17 10:01:04] [DEBUG] Task adaugat in coada: fib [2]
+[2025-07-17 10:01:04] [INFO] Worker async pornit.
+[2025-07-17 10:01:04] [DEBUG] Procesam task: fib (2,)
+[2025-07-17 10:01:04] [DEBUG] Cache MISS pentru fib(2,)
+[2025-07-17 10:01:04] [DEBUG] Calculam Fibonacci pentru n = 2
+[2025-07-17 10:01:04] [DEBUG] Cache SET pentru fib(2,) = 1
+[2025-07-17 10:01:04] [INFO] Rezultat calculat: fib((2,)) = 1
+[2025-07-17 10:01:04] [DEBUG] Operatie salvata in DB: operation='fib' input='(2,)' result='1' timestamp=datetime.datetime(2025, 7, 17, 7, 1, 4, 34479)
+[2025-07-17 10:01:04] [DEBUG] Monitor: actualizat pentru fib
+[2025-07-17 10:01:05] [INFO] Cerere procesata: fib [2]
+[2025-07-17 10:01:44] [INFO] CLI pornit.
+[2025-07-17 10:01:44] [DEBUG] Autorizare reusita.
+[2025-07-17 10:01:44] [INFO] Baza de date a fost initializata.
+[2025-07-17 10:01:44] [DEBUG] Task adaugat in coada: fib [7]
+[2025-07-17 10:01:44] [INFO] Worker async pornit.
+[2025-07-17 10:01:44] [DEBUG] Procesam task: fib (7,)
+[2025-07-17 10:01:44] [DEBUG] Cache MISS pentru fib(7,)
+[2025-07-17 10:01:44] [DEBUG] Calculam Fibonacci pentru n = 7
+[2025-07-17 10:01:44] [DEBUG] Cache SET pentru fib(7,) = 13
+[2025-07-17 10:01:44] [INFO] Rezultat calculat: fib((7,)) = 13
+[2025-07-17 10:01:44] [DEBUG] Operatie salvata in DB: operation='fib' input='(7,)' result='13' timestamp=datetime.datetime(2025, 7, 17, 7, 1, 44, 569196)
+[2025-07-17 10:01:44] [DEBUG] Monitor: actualizat pentru fib
+[2025-07-17 10:01:45] [INFO] Cerere procesata: fib [7]
+[2025-07-17 10:02:01] [INFO] CLI pornit.
+[2025-07-17 10:02:06] [DEBUG] Autorizare reusita.
+[2025-07-17 10:02:06] [INFO] Baza de date a fost initializata.
+[2025-07-17 10:02:06] [DEBUG] Task adaugat in coada: pow [2, 10]
+[2025-07-17 10:02:06] [INFO] Worker async pornit.
+[2025-07-17 10:02:06] [DEBUG] Procesam task: pow (2, 10)
+[2025-07-17 10:02:06] [DEBUG] Cache MISS pentru pow(2, 10)
+[2025-07-17 10:02:06] [DEBUG] Calculam 2 ** 10
+[2025-07-17 10:02:06] [DEBUG] Cache SET pentru pow(2, 10) = 1024
+[2025-07-17 10:02:06] [INFO] Rezultat calculat: pow((2, 10)) = 1024
+[2025-07-17 10:02:06] [DEBUG] Operatie salvata in DB: operation='pow' input='(2, 10)' result='1024' timestamp=datetime.datetime(2025, 7, 17, 7, 2, 6, 102620)
+[2025-07-17 10:02:06] [DEBUG] Monitor: actualizat pentru pow
+[2025-07-17 10:02:07] [INFO] Cerere procesata: pow [2, 10]
+[2025-07-17 10:15:53] [INFO] CLI pornit.
+[2025-07-17 10:15:53] [DEBUG] Autorizare reusita.
+[2025-07-17 10:15:53] [INFO] Baza de date a fost initializata.
+[2025-07-17 10:15:53] [DEBUG] Task adaugat in coada: fact [5]
+[2025-07-17 10:15:53] [INFO] Worker async pornit.
+[2025-07-17 10:15:53] [DEBUG] Procesam task: fact (5,)
+[2025-07-17 10:15:53] [DEBUG] Cache MISS pentru fact(5,)
+[2025-07-17 10:15:53] [DEBUG] Calculam factorial pentru n = 5
+[2025-07-17 10:15:53] [DEBUG] Cache SET pentru fact(5,) = 120
+[2025-07-17 10:15:53] [INFO] Rezultat calculat: fact((5,)) = 120
+[2025-07-17 10:15:53] [DEBUG] Operatie salvata in DB: operation='fact' input='(5,)' result='120' timestamp=datetime.datetime(2025, 7, 17, 7, 15, 53, 838125)
+[2025-07-17 10:15:53] [DEBUG] Monitor: actualizat pentru fact
+[2025-07-17 10:15:54] [INFO] Cerere procesata: fact [5]
+[2025-07-17 10:16:16] [INFO] CLI pornit.
+[2025-07-17 10:16:21] [DEBUG] Autorizare reusita.
+[2025-07-17 10:16:21] [INFO] Baza de date a fost initializata.
+[2025-07-17 10:16:21] [DEBUG] Task adaugat in coada: fact [6]
+[2025-07-17 10:16:21] [INFO] Worker async pornit.
+[2025-07-17 10:16:21] [DEBUG] Procesam task: fact (6,)
+[2025-07-17 10:16:21] [DEBUG] Cache MISS pentru fact(6,)
+[2025-07-17 10:16:21] [DEBUG] Calculam factorial pentru n = 6
+[2025-07-17 10:16:21] [DEBUG] Cache SET pentru fact(6,) = 720
+[2025-07-17 10:16:21] [INFO] Rezultat calculat: fact((6,)) = 720
+[2025-07-17 10:16:21] [DEBUG] Operatie salvata in DB: operation='fact' input='(6,)' result='720' timestamp=datetime.datetime(2025, 7, 17, 7, 16, 21, 392195)
+[2025-07-17 10:16:21] [DEBUG] Monitor: actualizat pentru fact
+[2025-07-17 10:16:22] [INFO] Cerere procesata: fact [6]
+[2025-07-18 12:43:33] [INFO] CLI pornit.
+[2025-07-18 12:43:41] [WARNING] Autorizare esuata. Token invalid.
+[2025-07-18 12:44:00] [INFO] CLI pornit.
+[2025-07-18 12:44:02] [DEBUG] Autorizare reusita.
+[2025-07-18 12:44:02] [INFO] Baza de date a fost initializata.
+[2025-07-18 12:44:02] [DEBUG] Task adaugat in coada: pow [3, 2]
+[2025-07-18 12:44:02] [INFO] Worker async pornit.
+[2025-07-18 12:44:02] [DEBUG] Procesam task: pow (3, 2)
+[2025-07-18 12:44:02] [DEBUG] Cache MISS pentru pow(3, 2)
+[2025-07-18 12:44:02] [DEBUG] Calculam 3 ** 2
+[2025-07-18 12:44:02] [DEBUG] Cache SET pentru pow(3, 2) = 9
+[2025-07-18 12:44:02] [INFO] Rezultat calculat: pow((3, 2)) = 9
+[2025-07-18 12:44:02] [DEBUG] Operatie salvata in DB: operation='pow' input='(3, 2)' result='9' timestamp=datetime.datetime(2025, 7, 18, 9, 44, 2, 918663)
+[2025-07-18 12:44:02] [DEBUG] Monitor: actualizat pentru pow
+[2025-07-18 12:44:03] [INFO] Cerere procesata: pow [3, 2]
+[2025-07-18 12:45:42] [INFO] CLI pornit.
+[2025-07-18 12:45:45] [WARNING] Autorizare esuata. Token invalid.
+[2025-07-18 12:45:59] [INFO] CLI pornit.
+[2025-07-18 12:46:02] [DEBUG] Autorizare reusita.
+[2025-07-18 12:46:02] [INFO] Baza de date a fost initializata.
+[2025-07-18 12:46:02] [DEBUG] Task adaugat in coada: fib [4]
+[2025-07-18 12:46:02] [INFO] Worker async pornit.
+[2025-07-18 12:46:02] [DEBUG] Procesam task: fib (4,)
+[2025-07-18 12:46:02] [DEBUG] Cache MISS pentru fib(4,)
+[2025-07-18 12:46:02] [DEBUG] Calculam Fibonacci pentru n = 4
+[2025-07-18 12:46:02] [DEBUG] Cache SET pentru fib(4,) = 3
+[2025-07-18 12:46:02] [INFO] Rezultat calculat: fib((4,)) = 3
+[2025-07-18 12:46:02] [DEBUG] Operatie salvata in DB: operation='fib' input='(4,)' result='3' timestamp=datetime.datetime(2025, 7, 18, 9, 46, 2, 233733)
+[2025-07-18 12:46:02] [DEBUG] Monitor: actualizat pentru fib
+[2025-07-18 12:46:03] [INFO] Cerere procesata: fib [4]

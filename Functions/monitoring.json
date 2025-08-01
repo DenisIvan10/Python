@@ -1,0 +1,9 @@
+{
+  "total_requests": 15,
+  "operations": {
+    "pow": 5,
+    "fib": 5,
+    "fact": 5
+  },
+  "last_updated": "2025-07-18T09:46:02.239555"
+}
