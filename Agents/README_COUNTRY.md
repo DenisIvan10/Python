@@ -14,7 +14,7 @@ It leverages OpenAI models to first detect the relevant region, loads and splits
 - **Targeted PDF Loading:**  
   Only loads and processes the PDF associated with the detected region, optimizing performance and cost.
 - **Vectorized Semantic Search:**  
-  Splits the PDF into chunks, embeds them, and retrieves the most relevant context using [Chroma](https://www.trychroma.com/) as the vector store.
+  Splits the PDF into chunks, embeds them, and retrieves the most relevant context using Chroma as the vector store.
 - **LLM-Powered Q&A:**  
   Uses OpenAI's GPT model to synthesize a natural language answer, with support for markdown tables when appropriate.
 - **Fail-Safe:**  
