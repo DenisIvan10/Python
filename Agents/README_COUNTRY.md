@@ -40,7 +40,7 @@ It leverages OpenAI models to first detect the relevant region, loads and splits
 ---
 
 ## Project Structure
-
+```bash
 ├── tari.py # Main script (LangChain retrieval pipeline)
 ├── pdf/ # Folder containing regional PDF files (not included)
 │ ├── m_lac_inc_customer_en-us 1.pdf
@@ -51,7 +51,7 @@ It leverages OpenAI models to first detect the relevant region, loads and splits
 │ └── m_mea_inc_customer_en-us 1.pdf
 ├── .env # Environment variables (OpenAI API key, etc.)
 └── requirements.txt # Python dependencies
-
+```
 ---
 
 ## Installation
